@@ -10,12 +10,19 @@ mystr = "This is a string"
 mybool = True
 
 # We can display the content of a variable using the print() function
-
+print(myint, ' ', mystr)
+print(myfloat,', ',mybool)
 
 # Operators are used to perform operations on variables
+print((myint + myfloat),(myint * myfloat),(myint / myfloat)
+      ,(myint % 3))
 
-
+another_str = "This is another string"
+print((mystr + another_str),("nom " * 3))
 # Logical and comparison operators 
-
+print(myint == 10)
+print(not(myint < 5 or myfloat < 25))
 
 # re-declaring a variable works
+myint = "abc"
+print(myint)
